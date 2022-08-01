@@ -103,49 +103,50 @@
               Оставьте свои данные, мы вам перезвоним
             </p>
 
-            <span class="modal-form-txt">Имя</span>
             <label class="modal-form-item">
+              <span class="modal-form-txt">Имя</span>
+              <input
+                class="modal-form-field"
+                type="text"
+                name="user-name"
+                minlength="2"
+                required
+              />
               <span class="modal-icon-box">
                 <svg class="modal-form-icon" width="12" height="12">
                   <use href="./images/icons.svg#icon-form-person"></use>
                 </svg>
               </span>
-              <input
-                class="modal-form-field"
-                type="text"
-                name="user-name"
-                required
-              />
             </label>
 
-            <span class="modal-form-txt">Телефон</span>
             <label class="modal-form-item">
+              <span class="modal-form-txt">Телефон</span>
+              <input
+                class="modal-form-field"
+                name="user-phone"
+                type="tel"
+                required
+              />
               <span class="modal-icon-box">
                 <svg class="modal-form-icon" width="13" height="13">
                   <use href="./images/icons.svg#icon-form-phone"></use>
                 </svg>
               </span>
-              <input
-                class="modal-form-field"
-                name="user-phone"
-                type="phone"
-                required
-              />
             </label>
 
-            <span class="modal-form-txt">Почта</span>
             <label class="modal-form-item">
-              <span class="modal-icon-box">
-                <svg class="modal-form-icon" width="15" height="12">
-                  <use href="./images/icons.svg#icon-form-envelope"></use>
-                </svg>
-              </span>
+              <span class="modal-form-txt">Почта</span>
               <input
                 class="modal-form-field"
                 name="user-email"
                 type="email"
                 required
               />
+              <span class="modal-icon-box">
+                <svg class="modal-form-icon" width="15" height="12">
+                  <use href="./images/icons.svg#icon-form-envelope"></use>
+                </svg>
+              </span>
             </label>
 
             <span class="modal-form-txt">Коментарий</span>
